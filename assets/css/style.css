@@ -21,7 +21,7 @@ header{
     height:60px; 
  }
 
-#contact_box {
+#connect_with_me {
     background: firebrick;
     width: 270px;
     height: 175px;
@@ -31,8 +31,9 @@ header{
     text-align: left;
     position: fixed;
     float: right;
-    right: 50px;
-    top: 128px;
+    right: 91px;
+    
+    top: 60px;
     color: white;
     padding: 5px 5px 5px 5px;
     
@@ -46,12 +47,12 @@ header{
     color: white;
     width: 650px;
     height: 400px;
-    padding-top: 5px;
+    padding-top: 2px;
     padding-bottom: 10px;
     background-color: firebrick;
     margin: 10px 10px;
     left: -100px;
-    top: 20px;
+    top: 22px;
     
 }
 /*About Me Text*/
@@ -81,8 +82,8 @@ align-items: center; /*center items horizontally*/
 color: white;
 font-family: fantasy;
 font-size: 20px;
-text-align: center;
 padding: 5px 5px 5px 5px;
+
 
 
 }
@@ -110,18 +111,19 @@ img {
 }
 p {
     margin-left: 50px;
+    
 }
 .horizontalline {
     border-bottom: thick solid pink;
 
 }
 
-
-
  .image_box img{
      width: 40px;
      height: 40px;
-     /*padding: 100px 10px 0px 20px;*/
+     margin: 5px; 
+     align-content: center;
+
  }
 
 #contact_box ul {
@@ -139,6 +141,44 @@ footer {
     background-color: #f3f0d4;
     border-color: #cccccc;
 
+}
+#Contact_me {
+    position: relative;
+    float: left;
+    color: white;
+    width: 650px;
+    height: 400px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: firebrick;
+    margin: 10px 10px;
+    left: -100px;
+    top: 22px;
+}
 
+#Portfolio {
+    position: relative;
+    float: left;
+    color: white;
+    width: 650px;
+    height: 400px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: firebrick;
+    margin: 10px 10px;
+    left: -100px;
+    top: 22px;
+}
 
+.PortfolioPics img{
+    width: 25%;
+    height: 525%;
+    margin: 5px; 
+    align-content: center;
+
+}
+
+p2 {
+    text-align: center;
+    margin: 450px;
 }
